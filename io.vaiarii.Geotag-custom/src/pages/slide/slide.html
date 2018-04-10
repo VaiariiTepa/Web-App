@@ -1,0 +1,51 @@
+
+
+<ion-content class="slide-page">
+
+  <ion-slides pager="true" parallax="true" padding>
+
+    <ion-slide>
+      <ion-card>
+        <ion-card-header>
+          <h1>Iaorana ! </h1>
+        </ion-card-header>
+        <ion-card-content>
+            <h4>et Bienvenue,</h4><br>
+            <p>l'utilisation de cette application est simple,
+              bla bla bla...
+            </p>
+        </ion-card-content>
+      </ion-card>
+    </ion-slide>
+
+    <ion-slide>
+    <ion-card>
+      <ion-card-header>
+        <h1>Géotracking</h1>
+      </ion-card-header>
+      <ion-card-content>
+        <p>by Vaiarii...</p>
+      </ion-card-content>
+    </ion-card>
+    </ion-slide>
+
+    <ion-slide>
+      <ion-card>
+        <ion-card-header>
+            <h1>Petite identification</h1>
+        </ion-card-header>
+        <ion-card-content>
+          <ion-item>
+            <ion-label ion-floating>Prénom</ion-label>
+            <ion-input [(ngModel)]="prenom" type="text" value=""></ion-input>
+          </ion-item>
+
+          <div padding>
+            <button ion-button color="primary" (tap)="showHome()">C'est parti! :D</button>
+          </div>
+        </ion-card-content>
+      </ion-card>
+    </ion-slide>
+
+  </ion-slides>
+</ion-content>

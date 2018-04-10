@@ -1,0 +1,16 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Ionic Blank
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-card-content *ngFor="let article of news.articles">
+      <img [src]="article.urlToImage"/>
+    <ion-card-title>
+      {{ article.title }}
+    </ion-card-title>
+  </ion-card-content>
+</ion-content>

@@ -1,0 +1,8 @@
+{
+  "name": "SpeechDictEp12",
+  "app_id": "207c50f1",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}

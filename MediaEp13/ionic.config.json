@@ -1,0 +1,8 @@
+{
+  "name": "MediaEp13",
+  "app_id": "dbe7e2e6",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
