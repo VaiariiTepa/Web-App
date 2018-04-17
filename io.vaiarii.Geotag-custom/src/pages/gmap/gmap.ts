@@ -61,9 +61,6 @@ export class GmapPage {
   }
 
   // ionViewDidLoad(){
-
-
-
   // }
 
 
